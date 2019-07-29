@@ -56,6 +56,17 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <plugin>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>toolkit-maven-plugin</artifactId>
+                <version>1.0.3</version>
+                <configuration>
+                    <accessKeyId>LTAIggasT6cusrcX</accessKeyId>
+                    <accessKeySecret>LwvO6CzILl1IDnI3tv7LbUHhClZbFp</accessKeySecret>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
